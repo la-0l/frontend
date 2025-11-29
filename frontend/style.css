@@ -1,0 +1,181 @@
+h1 ,h2{
+  color: rgba(36, 36, 94, 0.69);
+  background-color: rgb(246, 229, 251);
+ border-bottom: solid 4px rgb(127, 95, 95);
+}
+ 
+
+
+h1{
+  border: solid 4px 4px 10px rgb(118, 104, 104);
+  border-radius:10px 30px ;
+width: 400px;
+text-transform: capitalize;
+padding-right: 5px ;
+margin: 30px auto;
+text-align: center;
+}
+
+h2{
+
+  border-radius: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+h4{
+  
+text-align: center;
+
+}
+p{
+  letter-spacing: 1px;
+}
+
+
+/*dir color color*/
+
+header{
+  height: 100vh;
+   background-image:linear-gradient(#000000db,transparent), url(bic/games.jpeg) ;
+background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+
+}
+
+.navbar{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background-color: rgb(241, 231, 231);
+}
+
+.logo{
+  font-size: 45px;
+  color: rgb(43, 7, 76) ;
+}
+
+.nav{
+display: flex;
+list-style: none;
+}
+.nav li a{
+text-decoration: none;
+margin: 10px;
+padding: 10px;
+font-size: 3opx;
+color: rgb(43, 7, 76);
+font-weight: 600px;
+
+}
+.nav li a:hover{
+  color: rgb(79, 176, 214);
+  transition: 1s;
+}
+
+.social_media{
+  display: flex;
+list-style: none;
+}
+.social_media li a{
+  margin: 10px;
+  padding:10px ;
+  color:  rgb(43, 7, 76);
+  font-size: 20px;
+}
+.content{
+  height: 70vh;
+  display: flex;
+ flex-direction: column;
+ justify-content:center;
+ align-items: center;
+
+}
+ .content h2{
+  font-size: 40px;
+  
+ }
+.content a{
+text-decoration: none;
+border: 1px solid 
+#f0f5f1db;
+color: #e9e4eedb;
+padding: 10px;
+border-radius: 20px;
+}
+.content a:hover{
+  background-color: rgba(21, 14, 14, 0.777);
+  transition: 1s;
+}
+.about{
+  height: 40vh;
+  background-color: rgb(240, 226, 228);
+  text-align: center;
+  padding:40px;
+}
+.about h3{
+  color: rgba(21, 14, 14, 0.777);
+  font-size: 40px;
+}
+.about p{
+  font-size: 20px;
+  color: rgba(21, 14, 14, 0.777);
+}
+.vision{
+  display: flex;
+  height: 60vh;
+}
+.vision .img{
+  width: 50%;
+
+}
+.vision .txt{
+  width: 50%;
+padding: 30px;
+}
+.vision .txt .p{
+  padding: 30px;
+  font-size: 28px;
+}
+
+
+
+
+.card{
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  padding: 20px;
+}
+.card .img3:hover{
+   box-shadow: 0 4px 8px 0 #943434;
+  padding: 20px;
+  transition: 1s;
+}
+.card .img2:hover{
+  box-shadow: 0 4px 8px 0 #943434;
+ padding: 20px;
+ transition: 1s;
+}
+
+.card .img2{
+  box-shadow: 0 8px 16px 0 #e9e4eedb;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  padding: 20px;
+}
+
+.card .img3{
+  box-shadow: 0 8px 16px 0 #e9e4eedb;
+  width: 300px;
+  height: 20rem;
+  object-fit:contain;
+  padding: 20px;
+}
+
+
+
